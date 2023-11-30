@@ -1,4 +1,4 @@
-# First Job
+
 name: First workflow
 on: [push]
 
@@ -24,5 +24,3 @@ jobs:
         steps:
             - name: echo a string
               run: Write-Output "Windows String"
-            - name:
-              run: dosodoo
