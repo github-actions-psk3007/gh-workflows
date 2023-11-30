@@ -1,6 +1,6 @@
 name: Working Dirs & Shells
 on: [push]
-dfeaults:
+defaults:
     run:
       shell: bash
 jobs:
