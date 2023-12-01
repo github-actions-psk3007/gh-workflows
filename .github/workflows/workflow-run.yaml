@@ -5,6 +5,6 @@ on:
         types: [completed]
 jobs:
     echo-string:
-        runs-on: ubuntu latest
+        runs-on: ubuntu-latest
         steps:
             - run: echo "Trigerred after 'Repository Evens completed!!"
