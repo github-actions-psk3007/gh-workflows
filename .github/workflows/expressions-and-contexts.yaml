@@ -1,5 +1,6 @@
 name: Expressions & Contexts
 on: [push, workflow_dispatch]
+run-name: "Expression & Contexts by @${{ github.actor }}, event: ${{ github.event_name }}"
 
 jobs:
     using-exprsssions-and-contexts:
