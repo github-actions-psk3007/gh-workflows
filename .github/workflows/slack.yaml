@@ -1,8 +1,8 @@
 name: Slack
-on: [workflow_dispatch]
+on: [push]
 
 jobs:
-    slck-job:
+    slack-job:
         runs-on: ubuntu-latest
         container: 
         steps:
